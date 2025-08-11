@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+.hide-scrolbar::-webkit-scrollbar{
+    display:none
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: #4b4b; */
+}
